@@ -1,0 +1,535 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: sans-serif;
+}
+
+.outer {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  height: 150vh;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 1;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.details{
+    display: flex;
+    height: 130px;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+
+
+.details img{
+    /* width: 50%; */
+    margin: 10px;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.komal{
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    /* border: 1px solid black; */
+}
+
+.span2{
+    font-size: small;
+    font-size: smaller;
+    color: rgba(128, 128, 128, 0.765);
+}
+
+.span3{
+    /* position: relative; */
+    display: block;
+    color: rgb(113, 113, 113);
+    margin-top: 30px;
+    
+}
+
+.edit-wrapper{
+    text-align: center;
+}
+
+.edit{
+    width: 95%;
+    height: 35px;
+    background-color: rgba(0, 128, 0, 0.066);
+    border: none;
+    border-radius: 4px;
+    color: rgba(0, 128, 0, 0.749);
+    font-weight: bold;
+}
+
+hr{
+    width: 89%;
+    text-align: center;
+    margin: 15px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.know{
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.know p{
+    margin-bottom: 10px;
+}
+
+.know img{
+    width: 16px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+}
+
+.det{
+    display: flex;
+}
+
+/* #skills{
+    display: flex;
+} */
+
+#skills ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+#skills img{
+    width: 26px;
+    margin-bottom: 4px;
+}
+
+#skills li{
+    border: 1px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.final{
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.final h3{
+    margin-bottom: 10px;
+    margin-left: 24px;
+}
+
+.div-final{
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.final img{
+    width: 15px;
+    height: 15px;
+    /* margin-bottom: 6px; */
+    margin-right: 12px;
+}
+
+#card1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#card1 p{
+    font-size: small;
+    color: gray;
+}
+
+#card1 img{
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.card1-text{
+    margin-left: 15px;
+    margin-top: 18px;
+    /* margin-bottom: 10px; */
+    display: flex;
+    text-align: left;
+}
+
+.card1-t-c{
+    margin-right: 30px;
+}
+
+#card2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#card2 p{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 18px;
+}
+
+#card2 h3{
+    text-align: left;
+    margin-left: 15px;
+    /* margin-top: 18px; */
+}
+
+#card2 img{
+    width: 95%;
+}
+
+#card3{
+    display: flex;
+    align-items: center;
+    /* font-size: medium; */
+}
+
+.card3-pic{
+    /* border: 1px solid black; */
+    width: 42%;
+    height: 100%;
+    margin-left: 60px;
+    margin-right: 98px;
+}
+
+#card3 img{
+    width: 100%;
+    margin-top: 15px;  
+}
+
+.t1, .t2, .t3{
+    padding: 2px 17px;
+    border-radius: 3px;
+    background-color: rgba(128, 128, 128, 0.043);
+}
+
+.t1, .t2{
+    margin-bottom: 8px;
+}
+
+.t1p{
+    color: lightseagreen;
+    font-weight: bold;
+    padding-bottom: 3px;
+
+}
+
+.t2p{
+    color: orange;
+    font-weight: bold;
+    padding-bottom: 3px;
+
+}
+
+.t3p{
+    color: red;
+    font-weight: bold;
+    padding-bottom: 3px;
+
+}
+
+.card3-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.card3-text div{
+    text-align: center;
+}
+
+#card4{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#card4 img{
+    width: 75px;
+}
+
+.text1{
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: left;
+}
+.text1 p{
+    font-size: small;
+    color: gray;
+}
+
+.text1 h2{
+    font-weight:normal ;
+}
+
+.text2 h3{
+    font-weight:normal ;
+    margin-bottom: 15px;
+}
+
+.text2{
+    margin-left: 15px;
+    /* margin-top: 15px; */
+    text-align: left;
+}
+.text2 p{
+    font-size: small;
+    color: gray;
+}
+
+.last-div{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 17px;
+    margin-right: 280px;
+}
+
+.last-div h3{
+    margin-right: 8px;
+}
+
+.last-div p{
+    color: gray;
+    margin-top: 1px;
+    /* margin-right: 280px; */
+}
+
+#card{
+    align-items: center;
+}
+
+#card5 img{
+    width: 95%;   
+}
+
+.fin{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.last-div2{
+    margin-top: 19px;
+    margin-left: 15px;
+    text-align: right;
+}
+
+#card5 ul{
+    display: flex;
+    list-style: none;
+    color: gray;
+    font-size: small;
+}
+
+#card5 li{
+    margin-right: 18px;
+}
+
+.btn{
+    /* border: 1px solid black; */
+    padding: 2px 8px;
+    border-radius: 2px;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+
+.fin-img{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ques ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 6px;
+}
+
+.ques li{
+    margin-right: 15px;
+    margin: 15px 15px;
+    display: flex;
+    margin-bottom: 0px;
+    
+    padding: 14px 15px;
+    border-radius: 5px;
+}
+
+.timer1{
+    background-color: rgba(128, 128, 128, 0.073);
+}
+
+.ques a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.ques img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.fin-list ul{
+    list-style: none;
+    color: black;
+}
+
+.fin-list li{
+    /* margin: 10px 0px; */
+    padding: 18px 10px;
+    margin-right: 20px;
+}
+
+.fin-list li:nth-child(odd) {
+  background-color: #dddddd52;
+  border-radius: 4px;
+}
+
+.fin-list a{
+    text-decoration: none;
+}
+
+.fin-list{
+    margin-left: 28px;
+    padding-bottom: 0px;
+}
+
+
+
+/* Main Content */
+.main-content {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  height: 33%;
+}
+
+.row.full {
+  height: 34%;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#card6{
+  flex: 1;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* #bfin{
+    height: px;
+} */
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    background-color: white;
+    height: 48px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    /* display: flex; */
+    margin-top: 5px;
+    justify-content: center;
+    padding: 1px;
+    
+}
+
+.nav-links li{
+    margin: 8px;
+    /* margin-left: 15px; */
+}
+
+.navbar img{
+    height: 27px;
+    /* margin-top: 15px; */
+    margin: 10px;
+    margin-left: 60px;
+}
+
+.logo{
+    margin-top: 2px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    padding: 8px 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-acc{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    left: 20rem;
+    
+}
+/* .nav-acc a{
+    margin: 0;
+    padding: 0;
+} */
+.nav-acc img{
+    height: 18px;
+    margin: 10px 10px;
+}
+
+.top{
+    background-color: rgba(255, 166, 0, 0.151);
+    color: orangered;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 21rem;
+    margin: 8px 0px;
+    padding: 0px 15px;
+    
+}
+
+.nav-right{
+    display: flex;
+    /* right: 5rem; */
+}
